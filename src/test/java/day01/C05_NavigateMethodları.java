@@ -12,25 +12,30 @@ public class C05_NavigateMethodları {
 
         driver.manage().window().maximize();
 
-        driver.navigate().to("https://www.amazon.com");                             //önce amazona gittik
         //driver.navigate().to() methodu sayfada ileri geri yapacaksak kullanılır
         //driver.get() methodu gibi bizi istenilen sayfaya götürür
+
+        //önce amazona gittik
+        driver.navigate().to("https://www.amazon.com");
+
+        //techproyı açtık
         Thread.sleep(3000);
-        driver.navigate().to("https://www.techproeducation.com");                   //techproyı açtık
+        driver.navigate().to("https://www.techproeducation.com");
 
+        //tekrar amazona döndük
         Thread.sleep(3000);
+        driver.navigate().back(); //GELDİĞİ SAYFAYA DÖNER adrese gerek yok
 
-        driver.navigate().back();                                                      //tekrar amazona döndük
 
-
-        // tekrar techpro sayfasına gidelim                                           //techproya döndük
+        // tekrar techpro sayfasına gidelim
         Thread.sleep(3000);
-        driver.navigate().forward();
+        driver.navigate().forward();//BACK İLE DÖNÜLEN SAYFADAN TEKRAR GELİR
 
-        //techpro sayfasını yenileyelim                                              //techpro sayfasını yeniledik
+        //techpro sayfasını yenileyelim
         Thread.sleep(3000);
         driver.navigate().refresh();
 
-        driver.close();                                                             //kapattık
+        //KAPAT
+        driver.close();
     }
 }

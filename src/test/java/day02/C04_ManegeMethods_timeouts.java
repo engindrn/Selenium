@@ -16,6 +16,7 @@ public class C04_ManegeMethods_timeouts {
 
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));    //2. sabit
+
            /*
          İleride wait konusunu daha geniş olarak ele alacağız
         Bir sayfa açılırken, ilk başta sayfanın içerisinde bulunan elementlere göre bir

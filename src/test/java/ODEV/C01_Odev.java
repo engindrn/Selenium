@@ -36,6 +36,7 @@ public class C01_Odev {
         System.out.println(driver.getWindowHandle());
 
         //saydanın HTML kodlarında "Gateway" kelimesinin geçip geçmediğini test edin
+
         String arananKelime= "Gateway";
         if (driver.getPageSource().contains("Gateway")){
             System.out.println("içeriyor");

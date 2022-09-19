@@ -16,8 +16,8 @@ public class C01_IlkClass {
 
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");   //driver i tanımladık
 
-        WebDriver driver= new ChromeDriver();  // kütüphaneyi tanımayıp import ettik .obje oulşturduk
-                                              //pencere açıldı
+        WebDriver driver= new ChromeDriver();  // kütüphaneyi tanımayıp import ettik .obje oulşturduk- webDriver interface old için objemizi onun childı olan chromeDriver dan oluşturudk
+                                              //pencere açıldı (choreme browserda)
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////
 

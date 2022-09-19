@@ -16,6 +16,7 @@ public class C03_WindowHandle {
         driver.get("https://www.amazon.com");
 
         System.out.println(driver.getWindowHandle());   //CDwindow-0E973DDADA3699A693195EA2D43074D1
+        //benzersiz olark açılan window a ait hachcode unu verir
         //farklı pencereler arasında gezebilmek için get.WindowHandle() methodu kullanılır.
     }
 }
