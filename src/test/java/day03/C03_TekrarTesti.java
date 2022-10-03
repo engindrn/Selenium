@@ -31,7 +31,7 @@ public class C03_TekrarTesti {
 
         //c. Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
         List<WebElement> aramaSonucu = driver.findElements(By.className("sg-col-inner")); //1-16 of 124 results for "city bike"
-        String sonucYazisi = aramaSonucu.get(0).getText();                              //126 sonuç verdi ilki bizim istediğimiz
+        String sonucYazisi = aramaSonucu.get(0).getText();                              //126 sonuç verdi ilki bizim istediğimiz üstteki yazı
         System.out.println(sonucYazisi);                                               //old için liste attık ve 0 ı aldık
 
 

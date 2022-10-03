@@ -80,6 +80,10 @@ public class C01_SinifCalismasi {
         List<WebElement> linklerListesi = driver.findElements(By.tagName("a")); //linklerin tag nameleri a oldugu için
         System.out.println("Linklerin sayisi :"+linklerListesi.size());        //liste attığımız değerilerin sayısını aldık
 
+        //linkleri yazdıralım
+        /*listemiz webElementlerden oluştuğu için direk yazdırırsak referansları yazdırır
+        onun yerine for each loop yapıp her bir link elementinin üstündeli yazıyı getText() methodu ile alıp yazdırmalıyız
+        */
 
             //for each ile:
         for (WebElement each:linklerListesi){
