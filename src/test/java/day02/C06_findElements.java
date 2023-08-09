@@ -14,6 +14,7 @@ public class C06_findElements {
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
 
 
+
         WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize();

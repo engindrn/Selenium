@@ -42,6 +42,7 @@ public class C03_TekrarTesti {
         // Sonuc sayısını LAMBDA ile yazdırınız
         Arrays.stream(sonucYazisi.split(" ")).limit(3).skip(2).forEach(System.out::println); //124
 
+
         //e. Sonra karşınıza çıkan ilk sonucun resmine tıklayın
         List<WebElement> ilkResim = driver.findElements(By.className("s-image"));
         WebElement ilkResimWE = ilkResim.get(0);      //list deki ilk elementi seçtik
